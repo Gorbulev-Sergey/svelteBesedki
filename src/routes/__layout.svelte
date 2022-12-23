@@ -2,7 +2,10 @@
 	import { toggle_class } from 'svelte/internal';
 </script>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed top-0 w-100">
+<nav
+	class="navbar navbar-expand-lg navbar-light bg-light position-fixed top-0 w-100"
+	style="z-index: 10000;"
+>
 	<div class="container">
 		<a class="btn btn-dark text-light me-5" href="/"><b>ПРОИЗВОДСТВО БЕСЕДОК</b></a>
 		<button

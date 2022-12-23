@@ -36,6 +36,9 @@
 
 	const endpoint = 'https://jsonplaceholder.typicode.com/users';
 	const addons = `{mode: 'no-cors',	method: 'post',	headers: {	'Content-Type': 'application/json',	'Access-Control-Allow-Origin': '*'	}	}`;
+	/**
+	 * @type {any[]}
+	 */
 	let posts = [];
 
 	onMount(async function () {
